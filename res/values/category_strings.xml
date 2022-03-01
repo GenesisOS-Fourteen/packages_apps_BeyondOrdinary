@@ -18,6 +18,9 @@
     <!-- Category: General -->
     <string name="category_general_title">General</string>
 
+    <!-- Category: General -->
+    <string name="category_security_title">Security</string>
+
     <!-- Category: Spoofing -->
     <string name="category_spoofing_title">Spoofing</string>
 </resources>
