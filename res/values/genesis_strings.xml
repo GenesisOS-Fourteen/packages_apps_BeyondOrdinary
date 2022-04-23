@@ -27,6 +27,10 @@
     <string name="gphotos_spoof_title">Unlimited Photos storage</string>
     <string name="gphotos_spoof_summary">Spoof your device as Pixel XL for Google Photos app only to provide unlimited storage for backup</string>
 
+    <!-- Ignore window secure -->
+    <string name="ignore_window_secure_title">Ignore window secure flags</string>
+    <string name="ignore_window_secure_summary">Remove screenshot and screenrecord limits for all apps. This can be convenient in some cases but may lead to privacy leaks.</string>
+
     <!-- Incall vibrate options -->
     <string name="incall_vibration_category">In-call vibration</string>
     <string name="incall_vibrate_connect_title">Vibrate on connect</string>
