@@ -22,6 +22,13 @@
     <PreferenceCategory
     android:title="@string/category_spoofing_title">
 
+        <!-- Google Play Integrity -->
+        <com.genesis.support.preferences.SystemPropertySwitchPreference
+            android:key="persist.sys.pihooks.pi"
+            android:title="@string/pi_spoof_title"
+            android:summary="@string/pi_spoof_summary"
+            android:defaultValue="true" />
+
         <!-- Unlimited google photos storage -->
         <com.genesis.support.preferences.SystemPropertySwitchPreference
             android:key="persist.sys.pihooks.gphotos"
