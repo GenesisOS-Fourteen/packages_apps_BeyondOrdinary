@@ -29,6 +29,13 @@
             android:summary="@string/pi_spoof_summary"
             android:defaultValue="true" />
 
+        <!-- Legacy Attestation -->
+        <com.genesis.support.preferences.SystemPropertySwitchPreference
+            android:key="persist.sys.spoof.vending_sdk32"
+            android:title="@string/vending_32_spoof_title"
+            android:summary="@string/vending_32_spoof_summary"
+            android:defaultValue="false" />
+
         <!-- Unlimited google photos storage -->
         <com.genesis.support.preferences.SystemPropertySwitchPreference
             android:key="persist.sys.pihooks.gphotos"
