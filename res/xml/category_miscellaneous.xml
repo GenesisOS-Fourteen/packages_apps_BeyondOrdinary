@@ -18,4 +18,15 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/category_miscellaneous_title" >
+
+    <PreferenceCategory
+    android:title="@string/category_spoofing_title">
+
+        <!-- Unlimited google photos storage -->
+        <com.genesis.support.preferences.SystemPropertySwitchPreference
+            android:key="persist.sys.pihooks.gphotos"
+            android:title="@string/gphotos_spoof_title"
+            android:summary="@string/gphotos_spoof_summary"
+            android:defaultValue="true" />
+    </PreferenceCategory>
 </PreferenceScreen>
